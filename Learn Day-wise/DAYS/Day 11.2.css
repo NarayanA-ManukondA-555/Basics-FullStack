@@ -1,0 +1,56 @@
+.container p:first-child {
+  color: #F2BE22;
+}
+
+.container p:nth-child(2) {
+  color: #82CD47;
+}
+
+.container p:nth-child(3) {
+  color: #FC4F00;
+}
+
+.container p:last-child {
+  color: #11009E;
+}
+
+.container p:nth-child(even) {
+  color: #FC4F00;
+}
+
+.container p:nth-child(odd) {
+  color: #090580;
+}
+
+.container p:nth-child(2n) {
+  color: #FC4F00;
+}
+
+.container p:nth-child(2n+1) {
+  color: #090580;
+}
+
+.container p:first-of-type {
+  color: #E55807;
+}
+
+.container p:last-of-type {
+  color: #54B435;
+}
+
+.container p::first-letter {
+  color: #54B435;
+}
+
+p::before {
+    content: "Hello";
+    background: #F24C3D;
+    color: white;
+    display: block;
+  }
+p::after {
+    content: "World";
+    background: #54B435;
+    color: white;
+    display: block;
+  }

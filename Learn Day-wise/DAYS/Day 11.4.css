@@ -1,0 +1,19 @@
+.box {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  animation: 10s abc infinite;
+}
+
+@keyframes abc {
+  20% {
+    margin-left: 500px;
+    background-color: green;
+  }
+  100% {
+    margin-left: 500px;
+    background-color: violet;
+    transform: rotate(45deg);
+  }
+}

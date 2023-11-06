@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+a:hover {
+  background-image: linear-gradient(to right, #5C469C 0%, #11009E 51%, #5C469C 100%);
+  background-position: right center;
+}

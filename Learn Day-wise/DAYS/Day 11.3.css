@@ -1,0 +1,26 @@
+.division__1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 100px;
+  transition: all 0.5s;
+}
+
+.division__1:hover {
+  background-color: blue;
+  border-radius: 50%;
+  transform: rotate(270deg);
+}
+
+.division__2 {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  margin: 100px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.division__2:hover {
+  width: 500px;
+}
